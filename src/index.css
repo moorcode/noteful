@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:  #09091df1;
+  font-family: 'Big Shoulders Inline Text', cursive;
+  display: flex;
+  flex-direction: column;
 }
 
 code {

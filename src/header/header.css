@@ -1,0 +1,13 @@
+.appHeader{
+
+    text-align: center;
+    
+  }
+  .appHeader h1 {
+     font-family: 'Big Shoulders Inline Text', cursive;
+  }
+
+  .appHeader a {
+      text-decoration: none;
+      color: #EADEDA;
+  }

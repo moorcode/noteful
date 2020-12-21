@@ -1,0 +1,48 @@
+.foldersList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.foldersList ul {
+  padding: 0;
+}
+
+.foldersList li {
+  border: 1px solid #eadeda;
+  text-align: center;
+  list-style: none;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.foldersList li a {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.selected {
+  background-color: #eadeda;
+  color: blanchedalmond;
+}
+
+.addFolder {
+  padding: 0;
+  align-self: center;
+  width: 50px;
+}
+
+.addFolder span {
+  font-size: 24px;
+  padding-top: 5px;
+  color: rgb(82, 238, 249);
+}
+
+.addFolder svg {
+    font-size: 25px;
+  }
+  
