@@ -32,7 +32,7 @@ export default class AddFolder extends Component {
     const query = {
       name: this.state.name
     };
-    const URL = 'http://localhost:3001/folders/';
+    const URL = 'http://localhost:9090/folders/';
 
     fetch(URL, {
       method: 'POST',

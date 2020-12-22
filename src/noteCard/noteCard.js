@@ -8,7 +8,7 @@ import './noteCard.css';
 
 export default class NoteCard extends Component {
   deleteCard = (id, cb, history) => {
-    fetch(`http://localhost:3001/notes/${id}`, { method: 'DELETE' })
+    fetch(`http://localhost:9090/notes/${id}`, { method: 'DELETE' })
       .then((res) => {
         if (!res.ok) {
           res.json();

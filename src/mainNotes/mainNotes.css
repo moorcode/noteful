@@ -20,6 +20,6 @@
   color: rgb(67, 0, 160);
 }
 
-.addNotes svg {
-  font-size: 25px;
+.addNotesButton {
+  border: 1 px solid black;
 }

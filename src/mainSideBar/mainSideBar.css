@@ -26,8 +26,8 @@
 }
 
 .selected {
-  background-color: #eadeda;
-  color: blanchedalmond;
+  background-color: #f41919bf;
+  color: white;
 }
 
 .addFolder {
@@ -42,7 +42,6 @@
   color: rgb(82, 238, 249);
 }
 
-.addFolder svg {
-    font-size: 25px;
-  }
-  
+.addFolderButton {
+  border: 1 px solid black;
+}

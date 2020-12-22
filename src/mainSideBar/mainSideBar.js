@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import NotefulContext from '../NotefulContext';
-import { BsFillPlusCircleFill } from 'react-icons/bs';
 import './mainSideBar.css';
 
 export default function MainSideBar(props) {
@@ -24,8 +23,7 @@ export default function MainSideBar(props) {
             ))}
           </ul>
           <Link to='/new/folder' className='addFolder'>
-            <BsFillPlusCircleFill />
-            <span>Add Folder</span>
+          <button className='addFolderButton'>Add Folder</button>
           </Link>
         </div>
       )}

@@ -1,9 +1,9 @@
 
 .noteCard{
-    border: 1px solid #BFB8AD;
+    border: none;
     padding: 10px;
     margin-right: 10px;
-    background-color: #BFB8AD;
+    background-color: #12123af1;
     box-shadow: 2px 2px 4px #998888;
   
 }
@@ -15,7 +15,7 @@
 
 .noteCard a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .noteInfo {
@@ -32,6 +32,3 @@
     background-color: #BFB8AD;
     border: none;
 }
- .can-svg {
-     font-size: 20px;
- }

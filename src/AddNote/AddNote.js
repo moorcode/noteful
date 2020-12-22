@@ -83,7 +83,7 @@ export default class AddNote extends Component {
   };
   handleSubmit = (e) => {
     e.preventDefault();
-    const URL = 'http://localhost:3001/notes/';
+    const URL = 'http://localhost:9090/notes/';
     const note = {
       name: this.state.name.value,
       modified: this.state.modified,

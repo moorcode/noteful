@@ -29,7 +29,7 @@ class App extends Component {
     );
   };
   componentDidMount() {
-    fetch(`http://localhost:3001/db`)
+    fetch(`http://localhost:9090/db`)
       .then((res) => {
         if (!res.ok) {
           res.json();
@@ -49,7 +49,7 @@ class App extends Component {
   }
 
   fetchFolders = (cb) => {
-    fetch(`http://localhost:3001/folders`)
+    fetch(`http://localhost:9090/folders`)
       .then((res) => {
         if (!res.ok) {
           res.json();
@@ -72,7 +72,7 @@ class App extends Component {
       });
   };
   fetchNotes = (cb) => {
-    fetch(`http://localhost:3001/notes`)
+    fetch(`http://localhost:9090/notes`)
       .then((res) => {
         if (!res.ok) {
           res.json();

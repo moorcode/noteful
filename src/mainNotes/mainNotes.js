@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import NotefulContext from '../NotefulContext';
 import NoteCard from '../noteCard/noteCard';
-import { BsFillPlusCircleFill } from 'react-icons/bs';
 import './mainNotes.css';
 
 export default function MainNotes(props) {
@@ -37,8 +36,7 @@ export default function MainNotes(props) {
               }}
               className='addNotes'
             >
-              <BsFillPlusCircleFill />
-              <span>Add Note</span>
+             <button className='addNotesButton'>Add Note</button>
             </Link>
           </div>
         );
