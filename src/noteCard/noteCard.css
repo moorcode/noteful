@@ -3,8 +3,6 @@
     border: none;
     padding: 10px;
     margin-right: 10px;
-    background-color: #12123af1;
-    box-shadow: 2px 2px 4px #998888;
   
 }
 
@@ -15,7 +13,6 @@
 
 .noteCard a {
     text-decoration: none;
-    color: white;
 }
 
 .noteInfo {

@@ -11,7 +11,6 @@
 }
 
 .foldersList li {
-  border: 1px solid #eadeda;
   text-align: center;
   list-style: none;
   padding: 20px;
@@ -39,9 +38,4 @@
 .addFolder span {
   font-size: 24px;
   padding-top: 5px;
-  color: rgb(82, 238, 249);
-}
-
-.addFolderButton {
-  border: 1 px solid black;
 }
