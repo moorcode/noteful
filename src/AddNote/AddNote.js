@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './AddNote.css';
-import PropType from 'prop-types';
+import PropTypes from 'prop-types';
 import ValidationError from '../validationError/ValidationError';
 export default class AddNote extends Component {
   constructor(props) {
@@ -184,6 +184,6 @@ AddNote.defaultProps = {
   folders: []
 };
 
-AddNote.protoType = {
-  folders: PropType.array.isRequired
+AddNote.PropType = {
+  folders: PropTypes.array.isRequired
 };
